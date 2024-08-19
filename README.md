@@ -21,7 +21,7 @@ You can install the required packages using `pip`:
 
 ```bash
 pip install selenium webdriver-manager
-
+```
 
 
 # Amazon Product Scraper with BeautifulSoup
@@ -47,4 +47,4 @@ You can install the required packages using `pip`:
 
 ```bash
 pip install beautifulsoup4 requests pandas numpy
-
+```
