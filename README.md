@@ -1,6 +1,6 @@
-# Amazon Product Scraper
+# Amazon Product Scraper & Web Crawling
 
-This project is an automated Amazon product scraper built with Python and Selenium. The script scrapes product information (names and links) based on a given search query from Amazon's search results page and stores the data in a CSV file for further analysis or use.
+This project is an automated Amazon product scraper built with Python and Selenium. The script scrapes product information (names and links) based on a given search query from Amazon's search results page and  It also incorporates a basic form of crawling by handling pagination to move through multiple pages of search results. Then stores the data in a CSV file for further analysis or use.
 
 ## Features
 
