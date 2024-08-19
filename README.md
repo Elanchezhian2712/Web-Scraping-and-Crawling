@@ -21,3 +21,30 @@ You can install the required packages using `pip`:
 
 ```bash
 pip install selenium webdriver-manager
+
+
+
+# Amazon Product Scraper with BeautifulSoup
+
+This project is an automated Amazon product scraper built with Python, BeautifulSoup, and Requests. The script scrapes detailed product information (title, price, rating, review count, and availability) based on a given search query from Amazon and stores the data in a CSV file for further analysis or use.
+
+## Features
+
+- **Scrapes Multiple Product Attributes:** The script extracts the product title, price, rating, review count, and availability from individual product pages on Amazon.
+- **CSV Export:** The extracted data is stored in a CSV file (`amazon_data.csv`) for easy access and analysis.
+- **Robust Error Handling:** The script handles HTTP request exceptions and skips invalid or unavailable product pages.
+
+## Requirements
+
+Before running the script, ensure that the following packages are installed:
+
+- **BeautifulSoup4**
+- **Requests**
+- **Pandas**
+- **NumPy**
+
+You can install the required packages using `pip`:
+
+```bash
+pip install beautifulsoup4 requests pandas numpy
+
